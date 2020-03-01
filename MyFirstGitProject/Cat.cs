@@ -11,10 +11,11 @@ namespace MyFirstGitProject
         public int Id { get; set; }
         public string Name { get; set; }
 
+        public string Color { get; set; }
         public string Extend { get; set; }
         public override string ToString()
         {
-            return "名字:" + Name + " 其他信息" + Extend;
+            return "名字:" + Name + " 颜色" + Color + " 其他信息" + Extend;
         }
     }
 }
