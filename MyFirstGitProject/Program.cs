@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyFirstGitProject
 {
+    /// <summary>
+    /// 开发版本2.0.0.0
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
